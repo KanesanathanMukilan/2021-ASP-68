@@ -1,0 +1,21 @@
+
+# R temporary and session files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio project settings
+.Rproj.user/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+
+# Sensitive environment files
+.env
+.env.*
