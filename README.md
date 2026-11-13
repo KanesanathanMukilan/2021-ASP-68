@@ -1,4 +1,6 @@
 # Classification of Leukemia Types (ALL and AML) Using Gene Expression Data in R
+## View Research Report
+[Click here to view the full HTML Research Report](https://kanesanathanmukilan.github.io/2021-ASP-68/report/Leukemia_Research_Report.html)
 
 
 ## 1. Project Overview
@@ -302,5 +304,3 @@ The SVM achieved 90.48% test accuracy and 92.16% cross-validation accuracy. Thes
 
 **Disclaimer:** This project is an academic bioinformatics study using a publicly available dataset. Its classification results should not be interpreted as evidence of clinical diagnostic performance.
 
-## View Research Report
-[Click here to view the full HTML Research Report](https://kanesanathanmukilan.github.io/2021-ASP-68/report/Leukemia_Research_Report.html)
