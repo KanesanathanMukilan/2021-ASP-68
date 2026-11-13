@@ -1,0 +1,27 @@
+Confusion Matrix and Statistics
+
+          Reference
+Prediction ALL AML
+       ALL  31   2
+       AML   2  16
+                                          
+               Accuracy : 0.9216          
+                 95% CI : (0.8112, 0.9782)
+    No Information Rate : 0.6471          
+    P-Value [Acc > NIR] : 5.91e-06        
+                                          
+                  Kappa : 0.8283          
+                                          
+ Mcnemar's Test P-Value : 1               
+                                          
+            Sensitivity : 0.9394          
+            Specificity : 0.8889          
+         Pos Pred Value : 0.9394          
+         Neg Pred Value : 0.8889          
+             Prevalence : 0.6471          
+         Detection Rate : 0.6078          
+   Detection Prevalence : 0.6471          
+      Balanced Accuracy : 0.9141          
+                                          
+       'Positive' Class : ALL             
+                                          

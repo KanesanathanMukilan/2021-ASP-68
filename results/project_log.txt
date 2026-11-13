@@ -1,0 +1,198 @@
+Leukemia Bioinformatics Project
+Project execution log started.
+
+Phase 4: Exploratory Data Analysis started
+Phase 3 files generated successfully![1] "clean_gene_expression.csv"   
+[2] "clean_sample_information.csv"
+[3] "gene_expression.csv"         
+[4] "leukemia_dataset.rds"        
+[5] "sample_information.csv"      
+[1] TRUE
+
+ALL AML 
+ 47  25 
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] 7129   72
+
+ALL AML 
+ 47  25 
+[1] TRUE
+[1] 0
+png 
+  2 
+[1] 20416
+Training samples: 51 
+Testing samples: 21 
+Selected genes: 100 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction ALL AML
+       ALL  13   1
+       AML   1   6
+                                          
+               Accuracy : 0.9048          
+                 95% CI : (0.6962, 0.9883)
+    No Information Rate : 0.6667          
+    P-Value [Acc > NIR] : 0.01283         
+                                          
+                  Kappa : 0.7857          
+                                          
+ Mcnemar's Test P-Value : 1.00000         
+                                          
+            Sensitivity : 0.9286          
+            Specificity : 0.8571          
+         Pos Pred Value : 0.9286          
+         Neg Pred Value : 0.8571          
+             Prevalence : 0.6667          
+         Detection Rate : 0.6190          
+   Detection Prevalence : 0.6667          
+      Balanced Accuracy : 0.8929          
+                                          
+       'Positive' Class : ALL             
+                                          
+[1] TRUE
+Confusion Matrix and Statistics
+
+          Reference
+Prediction ALL AML
+       ALL  31   2
+       AML   2  16
+                                          
+               Accuracy : 0.9216          
+                 95% CI : (0.8112, 0.9782)
+    No Information Rate : 0.6471          
+    P-Value [Acc > NIR] : 5.91e-06        
+                                          
+                  Kappa : 0.8283          
+                                          
+ Mcnemar's Test P-Value : 1               
+                                          
+            Sensitivity : 0.9394          
+            Specificity : 0.8889          
+         Pos Pred Value : 0.9394          
+         Neg Pred Value : 0.8889          
+             Prevalence : 0.6471          
+         Detection Rate : 0.6078          
+   Detection Prevalence : 0.6471          
+      Balanced Accuracy : 0.9141          
+                                          
+       'Positive' Class : ALL             
+                                          
+ [1] "01_data_import.R"            
+ [2] "02_data_cleaning.R"          
+ [3] "03_exploratory_analysis.R"   
+ [4] "04_expression_distribution.R"
+ [5] "05_pca_analysis.R"           
+ [6] "06_expression_boxplot.R"     
+ [7] "07_gene_expression_heatmap.R"
+ [8] "08_svm_classification.R"     
+ [9] "09_train_svm_model.R"        
+[10] "10_confusion_matrix.R"       
+[11] "11_cross_validation.R"       
+[12] "12_cv_visualization.R"       
+[1] "01_sample_distribution.png"    
+[2] "02_expression_distribution.png"
+[3] "03_pca_analysis.png"           
+[4] "04_expression_boxplot.png"     
+[5] "05_gene_expression_heatmap.png"
+[6] "06_confusion_matrix.png"       
+[7] "07_cross_validation_matrix.png"
+ [1] "cross_validation_predictions.csv"
+ [2] "cross_validation_results.txt"    
+ [3] "gene_variance.csv"               
+ [4] "pca_variance.csv"                
+ [5] "project_log.txt"                 
+ [6] "svm_evaluation.txt"              
+ [7] "svm_model.rds"                   
+ [8] "svm_predictions.csv"             
+ [9] "testing_samples.csv"             
+[10] "training_samples.csv"            
+ [1] "01_data_import.R"            
+ [2] "02_data_cleaning.R"          
+ [3] "03_exploratory_analysis.R"   
+ [4] "04_expression_distribution.R"
+ [5] "05_pca_analysis.R"           
+ [6] "06_expression_boxplot.R"     
+ [7] "07_gene_expression_heatmap.R"
+ [8] "08_svm_classification.R"     
+ [9] "09_train_svm_model.R"        
+[10] "10_confusion_matrix.R"       
+[11] "11_cross_validation.R"       
+[12] "12_cv_visualization.R"       
+[1] "01_sample_distribution.png"    
+[2] "02_expression_distribution.png"
+[3] "03_pca_analysis.png"           
+[4] "04_expression_boxplot.png"     
+[5] "05_gene_expression_heatmap.png"
+[6] "06_confusion_matrix.png"       
+[7] "07_cross_validation_matrix.png"
+[1] TRUE
+[1] 0
+package ‘Cairo’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\hp\AppData\Local\Temp\RtmpAnoq4Q\downloaded_packages
+Cairo 
+    3 
+ [1] "01_data_import.R"            
+ [2] "02_data_cleaning.R"          
+ [3] "03_exploratory_analysis.R"   
+ [4] "04_expression_distribution.R"
+ [5] "05_pca_analysis.R"           
+ [6] "06_expression_boxplot.R"     
+ [7] "07_gene_expression_heatmap.R"
+ [8] "08_svm_classification.R"     
+ [9] "09_train_svm_model.R"        
+[10] "10_confusion_matrix.R"       
+[11] "11_cross_validation.R"       
+[12] "12_cv_visualization.R"       
+[1] "01_sample_distribution.png"    
+[2] "02_expression_distribution.png"
+[3] "03_pca_analysis.png"           
+[4] "04_expression_boxplot.png"     
+[5] "05_gene_expression_heatmap.png"
+[6] "06_confusion_matrix.png"       
+[7] "07_cross_validation_matrix.png"
+ [1] "cross_validation_predictions.csv"
+ [2] "cross_validation_results.txt"    
+ [3] "gene_variance.csv"               
+ [4] "pca_variance.csv"                
+ [5] "project_log.txt"                 
+ [6] "svm_evaluation.txt"              
+ [7] "svm_model.rds"                   
+ [8] "svm_predictions.csv"             
+ [9] "testing_samples.csv"             
+[10] "training_samples.csv"            
+[1] TRUE
+[1] TRUE
+[1] ‘2.32’
+Research report written successfully.
+  |                                  |                          |   0%  |                                  |.........                 |  33%          |                                  |.................         |  67% [setup]  |                                  |..........................| 100%                                                                      
+"C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/pandoc" +RTS -K512m -RTS Leukemia_Research_Report.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output pandoc37818ce1572.html --lua-filter "C:\Users\hp\AppData\Local\R\win-library\4.6\rmarkdown\rmarkdown\lua\pagebreak.lua" --lua-filter "C:\Users\hp\AppData\Local\R\win-library\4.6\rmarkdown\rmarkdown\lua\latex-div.lua" --lua-filter "C:\Users\hp\AppData\Local\R\win-library\4.6\rmarkdown\rmarkdown\lua\table-classes.lua" --embed-resources --standalone --variable bs3=TRUE --section-divs --table-of-contents --toc-depth 3 --template "C:\Users\hp\AppData\Local\R\win-library\4.6\rmarkdown\rmd\h\default.html" --syntax-highlighting none --variable highlightjs=1 --number-sections --variable theme=readable --mathjax --variable "mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" --include-in-header "C:\Users\hp\AppData\Local\Temp\RtmpAnoq4Q\rmarkdown-str37817e55e17.html" 
+[1] TRUE
+[1] TRUE
+[1] TRUE
+README.md created successfully.
+Approximate word count: 2086 
+File exists: TRUE 
+[1] 15196
+ [1] "# Classification of Leukemia Types (ALL and AML) Using Gene Expression Data in R"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+ [2] ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+ [3] "## 1. Project Overview"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+ [4] ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+ [5] "This project investigates the classification of two important types of acute leukemia: Acute Lymphoblastic Leukemia (ALL) and Acute Myeloid Leukemia (AML). It uses publicly available gene expression data and machine learning techniques implemented in the R programming language."                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+ [6] ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+ [7] "The project follows a bioinformatics workflow that includes data collection, data import, quality checking, data cleaning, exploratory data analysis, dimensionality reduction, clustering, classification and model evaluation."                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+ [8] ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+ [9] "The main objective is to investigate whether gene expression patterns can be used to distinguish ALL samples from AML samples."                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+[10] ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+[11] "## 2. Abstract"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+[12] ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+[13] "Leukemia is a type of blood cancer that affects blood-forming tissues. Different leukemia types have different biological characteristics. This study investigates the use of gene expression data and machine learning for classifying ALL and AML. The Golub leukemia dataset was obtained through the Bioconductor package golubEsets. It contains 7,129 gene probes and 72 samples, including 47 ALL and 25 AML samples. Exploratory analysis was performed using statistical summaries, histograms, boxplots, Principal Component Analysis and a gene expression heatmap. A Support Vector Machine with a linear kernel was developed using the 100 most variable genes. The model achieved 90.48% accuracy on the held-out test set and 92.16% accuracy during five-fold cross-validation. These findings demonstrate the potential of gene expression analysis for leukemia classification. Further validation using independent datasets is required."
+[14] ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+[15] "## 3. Research Problem and Motivation"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+[1] 2086
+README word count: 2086 
